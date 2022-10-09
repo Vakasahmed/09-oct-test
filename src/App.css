@@ -123,3 +123,36 @@
   margin-left: 10px;
  }
 }
+
+@media only screen and (max-width: 620px){
+  .left>p{
+    top: -10px;
+    left: -20px;
+  }
+  .left>h4{
+    left: -20px;
+  }
+  .rightUp{
+    margin-top: 0px;
+  }
+ .input>input{
+  width: 150px;
+ }
+ .lastName{
+  width: 100px !important;
+ }
+ .signUpBtn{
+  width: 150px;
+ }
+ .btn{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+ }
+ .rightUp{
+  gap: 0px;
+ }
+ .or{
+  margin-left: 60px;
+ }
+}
