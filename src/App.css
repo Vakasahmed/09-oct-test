@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+  background-color: rgb(123, 91, 175);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main{
+  box-sizing: border-box;
+  background-color: aliceblue;
+  width: 90vw;
+  height: 80vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.left{
+  width: 45%;
+  height: 100%;
+  background-color: rgb(106, 52, 194);
+  border-radius: 20px 0px 0px 20px;
+  position: relative;
+}
+.right{
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.rightUp{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 14vw;
+  gap: 10px;
+  margin-top: 20px;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input>input{
+  width: 300px;
+  border-radius: 5px;
+  border:2px solid rgb(193, 191, 191);
+}
+.output{
+  display: flex;
+  gap: 10px;
+}
+.lastName{
+  width: 140px !important;
+}
+.rightDown img{
+  width: 15px;
+  height: 15px;
+}
+.rightUp>h2{
+  color: blueviolet;
+}
+.left> img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 0px 0px 20px;
+}
+ .left> p{
+  position: absolute;
+  color: white;
+  margin-left: 40px;
+} 
+.left> h4{
+  position: absolute;
+  top: 15px;
+  color: rgb(93, 29, 152);
+  margin-left: 40px;
+}
+.signUpBtn{
+  width: 300px;
+  height: 30px;
+  color: white;
+  background-color: blueviolet;
+  border-radius: 10px;
+  border: none;
+  margin-top:10px ;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.or{
+  margin-left: 140px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: grey;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.btn2{
+  height: 30px;
+  background-color: white;
+  border: 2px solid rgb(154, 153, 153);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.signIn{
+  color: blue;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px){
+ .rightUp{
+  margin-left: 10px;
+ }
+}
