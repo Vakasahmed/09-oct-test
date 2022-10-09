@@ -130,7 +130,8 @@
     left: -20px;
   }
   .left>h4{
-    left: -20px;
+    bottom:5px;
+    left: 0px;
   }
   .rightUp{
     margin-top: 0px;
@@ -145,7 +146,7 @@
   width: 150px;
  }
  .btn{
-  width: 200px;
+  width: 160px;
   display: flex;
   flex-direction: column;
  }
@@ -154,5 +155,9 @@
  }
  .or{
   margin-left: 60px;
+ }
+   .output{
+  display: flex;
+  flex-direction: column;
  }
 }
